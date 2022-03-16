@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(61.59% 119.66% at 100% 38.41%, rgba(53, 43, 43, 0.77) 0%, #2E2C2C 86.77%);
+}
+.navBarTop{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 4.63%;
+}
+.navigation > a{
+    margin: 15px;
+}
+.heightColorTopNav{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.fa-brands{
+    color: white;
+}
+.socialsTop > i {
+    margin: 15px;
+}
