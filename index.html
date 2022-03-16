@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>MayTheFourth</title>
 </head>
+
 <body>
 
     <header>
@@ -27,12 +31,69 @@
         <div class="contentPrincipal">
             <div class="textHeader">
                 <h1>PURE HAIRCUT</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s</p>
                 <a href="">Découvrir nos prestations</a>
             </div>
             <img src="/assets/img/about.png" alt="Femme de dos en noir et gris">
         </div>
     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="contactUs">
+        <h2>Nous contacter</h2>
+        <a href="">+33340394826</a><a href="" class="mailTo">contact@pure-haircut.com</a>
+        <div class="contactAndMaps">
+            <div class="formsMails">
+                <div class="firstRow">
+                    <input type="text" id="LastName" placeholder="Nom">
+                    <input type="text" id="FirstName" placeholder="prénom">
+                </div>
+                <input type="tel" id="inputTel" placeholder="Tél">
+                <input type="email" id="mailInput" placeholder="Email">
+                <input type="text" id="Message" placeholder="Entrez votre message...">
+                <div id="map"></div>
+            </div>
+            <input type="submit" id="sendButton" placehholder="Envoyer">
+        </div>
+    </section>
 </body>
 <script src="assets/js/app.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly" async></script>
+
 </html>
