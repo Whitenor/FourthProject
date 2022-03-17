@@ -77,7 +77,8 @@
 
     <section class="contactUs">
         <h2>Nous contacter</h2>
-        <a href="">+33340394826</a><a href="" class="mailTo">contact@pure-haircut.com</a>
+        <a href="" id="noUnderline">+33340394826</a>
+        <a href="" class="mailTo">contact@pure-haircut.com</a>
         <div class="contactAndMaps">
             <div class="formsMails">
                 <div class="firstRow">
@@ -87,13 +88,12 @@
                 <input type="tel" id="inputTel" placeholder="Tél">
                 <input type="email" id="mailInput" placeholder="Email">
                 <input type="text" id="Message" placeholder="Entrez votre message...">
-                <div id="map"></div>
             </div>
-            <input type="submit" id="sendButton" placehholder="Envoyer">
+            <div id="map"></div>
         </div>
+        <input type="submit" id="sendButton" value="Envoyer">
     </section>
 </body>
 <script src="assets/js/app.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly" async></script>
 
 </html>
