@@ -141,100 +141,57 @@ header {
     padding: 5% 2%;
     background: radial-gradient(46.73% 85.57% at 3.27% 86.69%, rgba(48, 47, 47, 0.85) 0%, #302F2F 100%);
 }
-.contactUs > h2 {
-    font-size: 4rem;
-    font-family: "PhosphateRRSolid", sans-serif;
-    color: white;
-    letter-spacing: 0.1em;
-    padding-top: 0;
-}
-.contactUs > a {
-    font-size: 34px;
-    font-family: "PhosphateRRSolid";
-    color: #B67D27;
-    letter-spacing: 0.15em;
-}
-.mailTo{
-    margin-top: 23px;
-    margin-bottom: 5rem;
-}
-.contactAndMaps {
+.contactAndMaps{
     display: flex;
-    flex-direction: row;
-    width: 1;
+    width: 100%;
     height: 60vh;
     align-items: center;
     justify-content: space-between;
 }
-
-.formsMails {
+.formsMails{
     display: flex;
     flex-direction: column;
-    width: 45%;
-    margin: 0;
-}
-
-.firstRow {
-    display: flex;
     width: 100%;
-    margin-bottom: 29px;
-    padding-right: 0;
+    height: 36vh;
+    padding: 0;
 }
-
-input {
-    border: solid 2px white;
+.firstRow>input::placeholder, .formsMails>input::placeholder{
     color: white;
-    padding: 21px 33px;
 }
-
-input:focus {
+.firstRow>input, .formsMails>input{
+    border: solid 0.1em white;
+}
+.firstRow>input:focus, .formsMails>input:focus{
     outline: none;
-    border: solid 2px #B67D27;
+    border-color: #B67D27;
 }
-
-input::placeholder {
+.firstRow{
+    display: flex;
+    height: 13%;
+    margin-bottom: 1vh;
+}
+.firstRow > input{
+    width: 48%;
+    background: transparent;
     color: white;
 }
-
-#LastName {
-    width: 19.5vw;
-    margin-right: 0.5vw;
-    height: 70px;
-    background: transparent;
+.firstRow > #LastName{
+    margin-right: 1%;
 }
-
-#FirstName {
-    width: 19.5vw;
-    margin-left: 0.5vw;
-    height: 70px;
-    background: transparent;
+.firstRow > #FirstName{
+    margin-left: 1%;
 }
-
-#inputTel {
-    height: 70px;
-    background: transparent;
-    margin-bottom: 29px;
+#map{
+    width: 98%;
+    height: 36vh;
 }
-
-#mailInput {
-    height: 70px;
+.formsMails > input{
+    margin: 2vh 0vh 0 0;
+    height: 5vh;
+    width: 98%;
     background: transparent;
-    margin-bottom: 29px;
+    color: white;
 }
-
-#Message {
-    height: 205px;
-    background: transparent;
-}
-
-#map {
-    width: 50vw;
-    height: 509px;
-    background-color: black;
-}
-
-#sendButton {
-    width: 150px;
-    background: transparent;
-    border: transparent;
+#Message{
+    height: 18vh;
 }
