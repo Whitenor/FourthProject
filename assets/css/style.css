@@ -4,6 +4,10 @@
     font-family: PhosphateRRSolid;
     src: url('../font/PhosphateRR\ Solid.ttf');
 }
+@font-face {
+    font-family: OpenSans;
+    src: url(../font/OpenSans-Regular.ttf);
+}
 
 body {
     margin: 0;
@@ -160,6 +164,7 @@ header {
 }
 .firstRow>input, .formsMails>input{
     border: solid 0.1em white;
+    font-family: "OpenSans", sans-serif;
 }
 .firstRow>input:focus, .formsMails>input:focus{
     outline: none;
