@@ -11,3 +11,27 @@ function initMap() {
       map: map,
     });
   }
+
+  //callUnderline UNDERLINE
+
+  console.log(document.getElementsByClassName('callUnderline'))
+  document.getElementsByClassName("sending")[0].addEventListener("mouseenter", function(){
+    document.getElementsByClassName('callUnderline')[0].classList.add('underlineFull');
+    document.getElementsByClassName('callUnderline')[0].classList.remove('underlineNotFull');
+  })
+  document.getElementsByClassName("sending")[0].addEventListener("mouseleave", function(){
+    document.getElementsByClassName('callUnderline')[0].classList.add('underlineNotFull');
+    document.getElementsByClassName('callUnderline')[0].classList.remove('underlineFull');
+  })
+  
+
+
+  console.log(document.getElementsByClassName('callUnderline'))
+  document.getElementsByClassName("moveToService")[0].addEventListener("mouseenter", function(){
+    document.getElementsByClassName('callUnderline')[0].classList.add('underlineFull');
+    document.getElementsByClassName('callUnderline')[0].classList.remove('underlineNotFull');
+  })
+  document.getElementsByClassName("moveToService")[0].addEventListener("mouseleave", function(){
+    document.getElementsByClassName('callUnderline')[0].classList.add('underlineNotFull');
+    document.getElementsByClassName('callUnderline')[0].classList.remove('underlineFull');
+  })
