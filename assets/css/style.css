@@ -41,10 +41,17 @@ header {
     backdrop-filter: blur(5px);
     z-index: 1000000;
 }
-
-.navigation>a {
+.navigation {
+    display: flex;
+}
+.navigation > div{
+    display: flex;
+    flex-direction: column;
+}
+.navigation>div{
     margin: 15px;
 }
+
 
 .heightColorTopNav {
     font-size: 16px;
