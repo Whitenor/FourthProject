@@ -15,13 +15,14 @@ function initMap() {
   
   var burger = document.getElementById('burger');
   var closeNav = document.getElementById('closeNav');
-  var mobileNav = document.getElementById('mobileNav');
+  var mobileNav = document.getElementById('mobileNavTest');
   
   burger.addEventListener('click', function(){
       mobileNav.classList.remove('none');
   
       setTimeout(() => {
           mobileNav.classList.add('openNav');
+          document.getElementsByClassName('navBarTop')[0].classList.add('changeColorBackground');
       }, 200);
       
       this.classList.add('none');
@@ -33,7 +34,8 @@ function initMap() {
       mobileNav.classList.remove('openNav');
   
       setTimeout(() => {
-          mobileNav.classList.add('none');
+          mobileNav.classList.add('none');          
+          document.getElementsByClassName('navBarTop')[0].classList.remove('changeColorBackground');
       }, 200);
      
       this.classList.add('none');
