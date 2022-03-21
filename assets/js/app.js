@@ -13,3 +13,30 @@ function initMap() {
   }
 
   
+  var burger = document.getElementById('burger');
+  var closeNav = document.getElementById('closeNav');
+  var mobileNav = document.getElementById('mobileNav');
+  
+  burger.addEventListener('click', function(){
+      mobileNav.classList.remove('none');
+  
+      setTimeout(() => {
+          mobileNav.classList.add('openNav');
+      }, 200);
+      
+      this.classList.add('none');
+      closeNav.classList.remove('none');
+  })
+  
+  closeNav.addEventListener('click', function(){
+  
+      mobileNav.classList.remove('openNav');
+  
+      setTimeout(() => {
+          mobileNav.classList.add('none');
+      }, 200);
+     
+      this.classList.add('none');
+      burger.classList.remove('none');
+      
+  })
