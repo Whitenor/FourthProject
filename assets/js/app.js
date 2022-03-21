@@ -12,6 +12,11 @@ function initMap() {
     });
   }
 
+
+
+
+// Navbar Mobile
+
   
   var burger = document.getElementById('burger');
   var closeNav = document.getElementById('closeNav');
@@ -22,7 +27,6 @@ function initMap() {
   
       setTimeout(() => {
           mobileNav.classList.add('openNav');
-          document.getElementsByClassName('navBarTop')[0].classList.add('changeColorBackground');
       }, 200);
       
       this.classList.add('none');
@@ -35,10 +39,21 @@ function initMap() {
   
       setTimeout(() => {
           mobileNav.classList.add('none');          
-          document.getElementsByClassName('navBarTop')[0].classList.remove('changeColorBackground');
       }, 200);
      
       this.classList.add('none');
       burger.classList.remove('none');
       
   })
+
+
+
+  //  switch d'image
+
+// console.log(window.innerWidth)
+// if (window.innerWidth > 1024){
+//   document.getElementById('imgAbout').setAttribute('src','/assets/img/about.png')
+// }
+// if (window.innerWidth <= '1024'){
+//   document.getElementById('imgAbout').setAttribute('src','/assets/img/about_tablet.png')
+// }
