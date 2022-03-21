@@ -11,24 +11,72 @@ function initMap() {
       map: map,
     });
   }
+
+  
   //callUnderline UNDERLINE
 
-  document.getElementsByClassName("sending")[0].addEventListener("mouseenter", function(){
-    document.getElementsByClassName('callUnderline')[1].classList.add('underlineFull');
-    document.getElementsByClassName('callUnderline')[1].classList.remove('underlineNotFull');
-  })
-  document.getElementsByClassName("sending")[0].addEventListener("mouseleave", function(){
-    document.getElementsByClassName('callUnderline')[1].classList.add('underlineNotFull');
-    document.getElementsByClassName('callUnderline')[1].classList.remove('underlineFull');
-  })
-  
 
 
-  document.getElementsByClassName("moveToService")[0].addEventListener("mouseenter", function(){
-    document.getElementsByClassName('callUnderline')[0].classList.add('underlineFull');
-    document.getElementsByClassName('callUnderline')[0].classList.remove('underlineNotFull');
-  })
-  document.getElementsByClassName("moveToService")[0].addEventListener("mouseleave", function(){
-    document.getElementsByClassName('callUnderline')[0].classList.add('underlineNotFull');
-    document.getElementsByClassName('callUnderline')[0].classList.remove('underlineFull');
-  })
+console.log(document.getElementsByClassName('callUnderline'))
+
+
+  // document.getElementsByClassName("acceuilTop")[0].addEventListener("mouseenter", function(){
+  //   document.getElementsByClassName('callUnderline')[0].classList.add('underlineFull');
+  //   document.getElementsByClassName('callUnderline')[0].classList.remove('underlineInexist');
+  // })
+  // document.getElementsByClassName("acceuilTop")[0].addEventListener("mouseleave", function(){
+  //   document.getElementsByClassName('callUnderline')[0].classList.add('underlineInexist');
+  //   document.getElementsByClassName('callUnderline')[0].classList.remove('underlineFull');
+  // })
+
+
+  // document.getElementsByClassName("ourRealisationsTop")[0].addEventListener("mouseenter", function(){
+  //   document.getElementsByClassName('callUnderline')[1].classList.add('underlineFull');
+  //   document.getElementsByClassName('callUnderline')[1].classList.remove('underlineInexist');
+  // })
+  // document.getElementsByClassName("ourRealisationsTop")[0].addEventListener("mouseleave", function(){
+  //   document.getElementsByClassName('callUnderline')[1].classList.add('underlineInexist');
+  //   document.getElementsByClassName('callUnderline')[1].classList.remove('underlineFull');
+  // })
+
+
+  // document.getElementsByClassName("ourServicesTop")[0].addEventListener("mouseenter", function(){
+  //   document.getElementsByClassName('callUnderline')[2].classList.add('underlineFull');
+  //   document.getElementsByClassName('callUnderline')[2].classList.remove('underlineInexist');
+  // })
+  // document.getElementsByClassName("ourServicesTop")[0].addEventListener("mouseleave", function(){
+  //   document.getElementsByClassName('callUnderline')[2].classList.add('underlineInexist');
+  //   document.getElementsByClassName('callUnderline')[2].classList.remove('underlineFull');
+  // })
+
+  // document.getElementsByClassName("contactTop")[0].addEventListener("mouseenter", function(){
+  //   document.getElementsByClassName('callUnderline')[3].classList.add('underlineFull');
+  //   document.getElementsByClassName('callUnderline')[3].classList.remove('underlineInexist');
+  // })
+  // document.getElementsByClassName("contactTop")[0].addEventListener("mouseleave", function(){
+  //   document.getElementsByClassName('callUnderline')[3].classList.add('underlineInexist');
+  //   document.getElementsByClassName('callUnderline')[3].classList.remove('underlineFull');
+  // })
+
+
+
+
+  // document.getElementsByClassName("moveToService")[0].addEventListener("mouseenter", function(){
+  //   document.getElementsByClassName('callUnderline')[4].classList.add('underlineFull');
+  //   document.getElementsByClassName('callUnderline')[4].classList.remove('underlineNotFull');
+  // })
+  // document.getElementsByClassName("moveToService")[0].addEventListener("mouseleave", function(){
+  //   document.getElementsByClassName('callUnderline')[4].classList.add('underlineNotFull');
+  //   document.getElementsByClassName('callUnderline')[4].classList.remove('underlineFull');
+  // })
+
+
+
+  // document.getElementsByClassName("sending")[0].addEventListener("mouseenter", function(){
+  //   document.getElementsByClassName('callUnderline')[5].classList.add('underlineFull');
+  //   document.getElementsByClassName('callUnderline')[5].classList.remove('underlineNotFull');
+  // })
+  // document.getElementsByClassName("sending")[0].addEventListener("mouseleave", function(){
+  //   document.getElementsByClassName('callUnderline')[5].classList.add('underlineNotFull');
+  //   document.getElementsByClassName('callUnderline')[5].classList.remove('underlineFull');
+  // })

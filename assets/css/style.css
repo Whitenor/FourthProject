@@ -59,6 +59,10 @@ header {
     text-decoration: none;
     font-family: 'PhosphateRRSolid';
 }
+.divNavBtn:hover > .callUnderline{
+    width: 100%;
+    display: block;
+}
 
 .fa-brands {
     color: white;
@@ -182,14 +186,15 @@ header {
     height: 36vh;
     padding: 0;
 }
-.firstRow>input::placeholder, .formsMails>input::placeholder{
+.firstRow>input::placeholder, .formsMails>input::placeholder, .formsMails>textarea::placeholder{
     color: white;
+    font-family: "OpenSans", sans-serif;
 }
 .firstRow>input, .formsMails>input{
     border: solid 0.1em white;
     font-family: "OpenSans", sans-serif;
 }
-.firstRow>input:focus, .formsMails>input:focus{
+.firstRow>input:focus, .formsMails>input:focus, .formsMails>textarea:focus{
     outline: none;
     border-color: #B67D27;
 }
@@ -213,12 +218,15 @@ header {
     width: 98%;
     height: 36vh;
 }
-.formsMails > input{
+.formsMails > input, .formsMails > textarea{
     margin: 2vh 0vh 0 0;
     height: 5vh;
     width: 98%;
     background: transparent;
     color: white;
+}
+.formsMails > textarea{
+    border: solid 1px white;
 }
 #Message{
     height: 18vh;
@@ -242,6 +250,11 @@ header {
     margin-bottom: 5px;
     font-size: 34px;
     cursor: pointer;
+}
+.underlineInexist{
+    border-bottom: solid 3px #B67D27;
+    width:0%;
+    transition: all 0.2s ease 0s;
 }
 .underlineNotFull{
     border-bottom: solid 3px #B67D27;
