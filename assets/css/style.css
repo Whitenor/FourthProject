@@ -28,6 +28,25 @@ header {
     background: radial-gradient(61.59% 119.66% at 100% 38.41%, rgba(53, 43, 43, 0.77) 0%, #2E2C2C 86.77%);
 }
 
+/* Underline */
+
+.underlineInexist{
+    border-bottom: solid 3px #B67D27;
+    width:0%;
+    transition: all 0.2s ease 0s;
+}
+.underlineNotFull{
+    border-bottom: solid 3px #B67D27;
+    width:70%;
+    transition: all 0.2s ease 0s;
+}
+.divNavBtn:hover > .callUnderline{
+    width: 100%;
+    display: block;
+}
+
+
+
 .navBarTop {
     width: 100vw;
     height: 5vh;
@@ -59,10 +78,7 @@ header {
     text-decoration: none;
     font-family: 'PhosphateRRSolid';
 }
-.divNavBtn:hover > .callUnderline{
-    width: 100%;
-    display: block;
-}
+
 
 .fa-brands {
     color: white;
@@ -250,19 +266,4 @@ header {
     margin-bottom: 5px;
     font-size: 34px;
     cursor: pointer;
-}
-.underlineInexist{
-    border-bottom: solid 3px #B67D27;
-    width:0%;
-    transition: all 0.2s ease 0s;
-}
-.underlineNotFull{
-    border-bottom: solid 3px #B67D27;
-    width:70%;
-    transition: all 0.2s ease 0s;
-}
-.underlineFull{
-    border-bottom: solid 3px #B67D27;
-    width:100%;
-    transition: all 0.2s ease 0s;
 }
