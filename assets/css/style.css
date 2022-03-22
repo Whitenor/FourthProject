@@ -56,10 +56,13 @@ header {
     padding: 10px 2% 5px 2%;
     position: fixed;
     top: 0;
-    backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.568);
     z-index: 1000000;
     transition: all 0.2s ease 0s;
+}
+.backgroundBlackBlur{
+    background-color: rgba(0, 0, 0, 0.568);
+    backdrop-filter: blur(5px);
+
 }
 .navigation {
     display: flex;
@@ -421,6 +424,15 @@ header {
     .openNav {
         height: 10vh !important;
     }
+    .textHeader>p{
+        width: 80vw;
+    }
+    .contactUs>h2{
+        font-size: 40px;
+    }
+    .contactUs>a{
+        font-size: 20px;
+    }
     .contactAndMaps{
         justify-content: center;
     }
@@ -438,5 +450,8 @@ header {
     } 
     .firstRow > #LastName, .firstRow > #FirstName{
         margin: inherit;
+    }
+    .firstRow>input::placeholder, .formsMails>input::placeholder, .formsMails>textarea::placeholder{
+        font-size: 17px;
     }
 } 

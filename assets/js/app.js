@@ -13,10 +13,17 @@ function initMap() {
   }
 
 
-  // window.onscroll = () => {
-  //   console.log(window.scrollY)
-  //   if()
-  // }
+
+  // Background navbar
+
+  window.onscroll = () => {
+    var scrolling= window.scrollY;
+    if(scrolling != 0){
+      document.getElementsByClassName('navBarTop')[0].classList.add('backgroundBlackBlur')
+    }else{
+      document.getElementsByClassName('navBarTop')[0].classList.remove('backgroundBlackBlur')
+    }
+  }
 
 
 
@@ -51,8 +58,4 @@ function initMap() {
       burger.classList.remove('none');
       
   })
-
-
-
-  //  switch d'image
 
