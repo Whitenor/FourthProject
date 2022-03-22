@@ -329,7 +329,10 @@ header {
 
 
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
+    header{
+        background: radial-gradient(63.08% 41.94% at 82.31% 9.72%, rgba(47, 46, 46, 0.85) 0%, #2F2E2E 100%)
+    } 
     .fa-bars {
         display: block;
       }
@@ -410,6 +413,9 @@ header {
 
 
 @media screen and (max-width:720px) {
+    header{
+        background: radial-gradient(49.19% 45.68% at 94.96% 9.58%, rgba(46, 45, 45, 0.84) 0%, #2E2D2D 100%)
+    }
     .fa-bars {
         display: block;
       }
