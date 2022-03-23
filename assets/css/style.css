@@ -325,7 +325,7 @@ footer{
         display: none;
     }  
     .openNav {
-        height: 8vh !important;
+        height: 100px !important;
     }
     .textHeader>h1 {
         font-size: 89px;
@@ -408,7 +408,7 @@ footer{
         display: none;
     }  
     .openNav {
-        height: 10vh !important;
+        height: 100px !important;
     }
     .textHeader>p{
         width: 80vw;

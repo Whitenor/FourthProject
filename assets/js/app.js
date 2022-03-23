@@ -25,8 +25,12 @@ function initMap() {
     }
   }
 
-
-
+document.getElementById('sendBtnDesktop').addEventListener('click',function(){
+  window.alert("Bien essayé , mais ça ne marche pas")
+})
+document.getElementById('sendBtnTabletMobile').addEventListener('click',function(){
+  window.alert("Bien essayé , mais ça ne marche pas")
+})
 
 // Navbar Mobile
 
