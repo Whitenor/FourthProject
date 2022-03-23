@@ -12,6 +12,7 @@ body {
     padding: 0;
     max-width: 100vw;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 * {
@@ -287,6 +288,7 @@ header {
     display: none;
 }
 footer{
+    width: 98%;
     height: 398px;
     background: radial-gradient(50% 389.65% at 0% 92.16%, rgba(34, 32, 32, 0.83) 0%, #282525 100%);
     display: flex;
@@ -424,6 +426,19 @@ footer > h4{
         width: 100vw;
         height: 535px;
         box-sizing: inherit;
+    }
+    footer{
+        align-items: center;
+    }
+    footer>div{
+        flex-direction: column;
+        align-items: center;
+    }
+    #lorem{
+        text-align: center;
+    }
+    #legals{
+        align-items: center;
     }
 }
 
