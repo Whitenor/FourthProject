@@ -1,3 +1,12 @@
+@font-face {
+    font-family: PhosphateRRSolid;
+    src: url('../font/PhosphateRR\ Solid.ttf');
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+
 *,
 ::before,
 ::after {
@@ -7,7 +16,6 @@
 
 body {
     background: #2f2e2e;
-    height: 100vh;
 }
 
 #service {
@@ -16,15 +24,22 @@ body {
 
 .service {
     width: 90%;
-    margin-left: 25px;
-    margin-right: 25px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 100px;
+}
+
+.service p{
+    font-family: "OpenSans", sans-serif;
 }
 
 
 #titre_service {
+    font-family: "PhosphateRRSolid", sans-serif;
     color: aliceblue;
     width: 100%;
+    letter-spacing: 2px;
 }
 
 #coupe_categorie {
@@ -54,10 +69,8 @@ body {
 .coupe_longueGD {
     color: antiquewhite;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     margin-bottom: 15px;
-    /* rajout pour onglet, la position absolu fait en sorte que le contenue se superpose */
-    position: absolute;
     opacity: 0;
 }
 
@@ -65,11 +78,13 @@ body {
     margin-top: 15px;
     font-weight: bold;
     font-size: 1.5rem;
+    font-family: "PhosphateRRSolid", sans-serif;
 
 }
 
 .coupe_longueG {
     margin-right: 20px;
+    min-height: 100vh;
 }
 
 .coupe_longueGD p {
@@ -156,10 +171,11 @@ body {
     text-align: center;
     color: aliceblue;
     width: 200px;
+    font-family: "PhosphateRRSolid", sans-serif;
 
 }
 
-#morebtn {
+.morebtn {
     display: none;
     transition: ease-in-out 1s;
 }
@@ -183,7 +199,6 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
-
     .coupe_longueD {
         display: none;
     }

@@ -14,11 +14,13 @@ function tabsAnimation(e){
     
     categorie[index].classList.remove("active");
     coupe_longueGD[index].classList.remove("activeContenu");
+    coupe_longueGD[index].classList.add("none")
     
     index = categorie.indexOf(el);
     
     categorie[index].classList.add("active")
-    coupe_longueGD[index].classList.add("activeContenu");    
+    coupe_longueGD[index].classList.add("activeContenu");
+    coupe_longueGD[index].classList.remove("none")    
 }
 
 // var voir = document.getElementsByClassName('morebtn')
@@ -26,7 +28,7 @@ function tabsAnimation(e){
 function changeStyle() {
   document.getElementsByClassName("coupe_longueD").style.display ="block";
 }
-console.log(changeStyle)
+// console.log(changeStyle)
 
 
 

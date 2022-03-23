@@ -1,3 +1,13 @@
+@font-face {
+    font-family: PhosphateRRSolid;
+    src: url('../font/PhosphateRR\ Solid.ttf');
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -5,10 +15,15 @@ body{
 
 section {
     padding-top: 2%;
-    width: 100wh;
-    height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
     background: radial-gradient(87.6% 89.88% at 87.56% 12.4%, rgba(46, 45, 45, 0.88) 0%, #2E2D2D 46.35%) repeat scroll 0 0;
 
+}
+
+.titreReal{
+    font-family: "PhosphateRRSolid" ;
+    letter-spacing: 2px;
 }
 
 .containerReal {
@@ -56,12 +71,19 @@ section {
     margin-left: 50px;
     height: 250px;
     width: auto;
-
 }
 
 .textR p {
     text-align: center;
+    font-family: "OpenSans", sans-serif;
 }
+
+.textR h4 {
+    font-family: "PhosphateRRSolid";
+    letter-spacing: 2px;
+
+}
+
 
 .photoG {
     display: flex;
@@ -167,6 +189,11 @@ section {
         width: 70%;
     }
 
+    .textR h4 {
+        margin-top: 25px;
+    
+    }
+
     .t2{
         margin-left:-50px;
     }
@@ -175,17 +202,17 @@ section {
         font-size: 4rem;
     }
  section{
-     height: 120vh;
+     min-height: 120vh;
  }
 
- .dot {
+ /* .dot {
     position: absolute;
     top: 30%;
     right: 0;
     display: flex;
     margin-right: 10px;
     margin-left: 5px;
-}
+} */
 
 .dot:nth-child(1){
     margin-top :9px;
