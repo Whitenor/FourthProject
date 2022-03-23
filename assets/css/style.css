@@ -247,7 +247,7 @@ header {
 }
 #map{
     width: 98%;
-    height: 36vh;
+    height: 37.5vh;
 }
 .formsMails > input, .formsMails > textarea{
     margin: 2vh 0vh 0 0;
@@ -289,9 +289,62 @@ header {
 footer{
     height: 398px;
     background: radial-gradient(50% 389.65% at 0% 92.16%, rgba(34, 32, 32, 0.83) 0%, #282525 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
     /* padding-top: 10px; */
 }
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+footer > h4{
+    color: white;
+    font-family: "PhosphateRRSolid", sans-serif;
+    font-size: 34px;
+}
+#lorem{
+    width: 380px;
+}
+#lorem > p {
+    color: white;
+    font-size: 13px;
+}
+#localisationAndContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#localisationAndContact>p{
+    color: white;
+    font-family: "OpenSans", sans-serif;
+    font-size: 13px;
+}
+#localisationAndContact>a{
+    color: white;
+    text-decoration: none;
+    font-family: "OpenSans", sans-serif;
+    font-size: 13px;
 
+}
+#legals{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#legals>p{
+    color: white;
+    font-family: "OpenSans", sans-serif;
+    font-size: 13px;
+}
+#legals>p>a{
+    color: #B67D27;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "OpenSans", sans-serif;
+}
 
 
 
