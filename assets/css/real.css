@@ -7,7 +7,6 @@
 
 body {
     background: #2f2e2e;
-    height: 100vh;
 }
 
 #service {
@@ -55,7 +54,7 @@ body {
 .coupe_longueGD {
     color: antiquewhite;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     margin-bottom: 15px;
     opacity: 0;
 }
@@ -69,6 +68,7 @@ body {
 
 .coupe_longueG {
     margin-right: 20px;
+    min-height: 100vh;
 }
 
 .coupe_longueGD p {
@@ -182,7 +182,6 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
-
     .coupe_longueD {
         display: none;
     }
