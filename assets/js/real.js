@@ -26,7 +26,7 @@ function tabsAnimation(e){
 function changeStyle() {
   document.getElementsByClassName("coupe_longueD").style.display ="block";
 }
-console.log(changeStyle)
+// console.log(changeStyle)
 
 
 
