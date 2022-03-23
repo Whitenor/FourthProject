@@ -72,7 +72,7 @@ section {
 #bg1 {
     width: 30vw;
     height: 40vh;
-    background: url(/asset/images/realisation_1.png);
+    background: url(/assets/img/realisation_1.png);
     background-position: center;
     background-size: cover;
 }
@@ -80,7 +80,7 @@ section {
 #bg2 {
     width: 30vw;
     height: 40vh;
-    background: url(/asset/images/realisation_2.png);
+    background: url(/assets/img/realisation_2.png);
     background-position: center;
     background-size: cover;
 }
@@ -88,7 +88,7 @@ section {
 #bg3 {
     width: 30vw;
     height: 40vh;
-    background: url(/asset/images/realisation_3.png);
+    background: url(/assets/img/realisation_3.png);
     background-position: center;
     background-size: cover;
 }
@@ -96,7 +96,7 @@ section {
 #bg4 {
     width: 30vw;
     height: 40vh;
-    background: url(/asset/images/realisation_4.png);
+    background: url(/assets/img/realisation_4.png);
     background-position: center;
     background-size: cover;
 }
