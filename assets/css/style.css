@@ -209,6 +209,7 @@ header {
     min-height: 40vh;
     align-items: center;
     justify-content: space-between;
+    margin-top: 150px;
 }
 .formsMails{
     display: flex;
@@ -413,7 +414,6 @@ footer > h4{
         margin-bottom: 25px;
     }
     .formsMails{
-        margin-top: 15px;
         margin-bottom: 50px;
         width: 100%;
     }
