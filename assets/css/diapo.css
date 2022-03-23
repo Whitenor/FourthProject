@@ -205,14 +205,14 @@ section {
      min-height: 120vh;
  }
 
- /* .dot {
+    .dot {
     position: absolute;
-    top: 30%;
+    top: 120%;
     right: 0;
     display: flex;
     margin-right: 10px;
     margin-left: 5px;
-} */
+} 
 
 .dot:nth-child(1){
     margin-top :9px;
