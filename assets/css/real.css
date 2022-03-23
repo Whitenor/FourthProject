@@ -67,7 +67,7 @@ body {
 }
 
 .coupe_longueGD {
-    color: antiquewhite;
+    color: white;
     display: flex;
     min-height: 100vh;
     margin-bottom: 15px;
@@ -79,7 +79,7 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
     font-family: "PhosphateRRSolid", sans-serif;
-
+    letter-spacing: 1px;
 }
 
 .coupe_longueG {
