@@ -250,7 +250,8 @@ section {
 
     .guillemet_d{
         position: inherit;
-        margin-right: 80px;
+        margin-left: -9px;
+        margin-top:5px;
     }
 
     .photoG{
