@@ -1,19 +1,86 @@
 <!DOCTYPE html>
+<html lang="fr">
 
-<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/diapo.css">
+    <link rel="stylesheet" href="assets/css/real.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>MayTheFourth</title>
+</head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/diapo.css">
-        <link rel="stylesheet" href="assets/css/real.css">
-        <title>Document</title>
-    </head>
+<body>
 
-    <body>
-        <section id="real">
+    <header>
+        <nav class="navBarTop">
+            <div id="navBarTop">
+                <i class="fa-solid fa-bars" id="burger"></i>
+                <i class="fa-solid fa-xmark none" id="closeNav"></i>
+                <div class="navigation">
+                    <div class="divNavBtn">
+                        <a href="" class="heightColorTopNav">Acceuil</a>
+                        <span class="callUnderline underlineInexist"></span>
+                    </div>
+                    <div class="divNavBtn">
+                        <a href="#real" class="heightColorTopNav">Nos Réalisations</a>
+                        <span class="callUnderline underlineInexist"></span>
+
+                    </div>
+                    <div class="divNavBtn">
+                        <a href="#services" class="heightColorTopNav">Nos Services</a>
+                        <span class="callUnderline underlineInexist"></span>
+                    </div>
+                    <div class="divNavBtn">
+                        <a href="#contactUs" class="heightColorTopNav">Contact</a>
+                        <span class="callUnderline underlineInexist"></span>
+                    </div>
+                </div>
+                <div class="socialsTop">
+                    <a href="https://www.facebook.com/webantek" target="_blank"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+                    <a href="https://twitter.com/_dieuoff" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/?next=/missfwuffy_capturas/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                </div>
+            </div>
+            <div id="mobileNav" class="none">
+                <div class="divNavBtn">
+                    <a href="" class="heightColorTopNav">Acceuil</a>
+                    <span class="callUnderline underlineInexist"></span>
+                </div>
+                <div class="divNavBtn">
+                    <a href="#real" class="heightColorTopNav">Nos Réalisations</a>
+                    <span class="callUnderline underlineInexist"></span>
+                </div>
+                <div class="divNavBtn">
+                    <a href="#services" class="heightColorTopNav">Nos Services</a>
+                    <span class="callUnderline underlineInexist"></span>
+                </div>
+                <div class="divNavBtn">
+                    <a href="#contactUs" class="heightColorTopNav">Contact</a>
+                    <span class="callUnderline underlineInexist"></span>
+                </div>
+            </div>
+        </nav>
+        <div class="contentPrincipal">
+            <div class="textHeader">
+                <h1>PURE HAIRCUT</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s</p>
+                <div class="moveToService divNavBtn">
+                    <a href="">Découvrir nos prestations</a>
+                    <span class="underlineNotFull callUnderline"></span>
+                </div>
+            </div>
+            <img src="/assets/img/about.png" alt="Femme de dos en noir et gris" id="imgAbout">
+        </div>
+    </header>
+
+     <section id="real">
             <div class="containerReal">
                 <!-- Slides -->
                 <div class="slides">
@@ -660,9 +727,64 @@
             </div>    
         </section>
     </div>
-    </body>
-    <script src="assets/js/real.js"></script>
-    <script src="assets/js/diapo.js"></script>
 
+    <section class="contactUs" id="contactUs">
+        <h2>Nous contacter</h2>
+        <a href="" id="noUnderline">+33340394826</a>
+        <a href="" class="mailTo">contact@pure-haircut.com</a>
+        <div class="contactAndMaps">
+            <div class="formsMails">
+                <div class="firstRow">
+                    <input type="text" id="LastName" placeholder="Nom">
+                    <input type="text" id="FirstName" placeholder="Prénom">
+                </div>
+                <input type="tel" id="inputTel" placeholder="Tél">
+                <input type="email" id="mailInput" placeholder="Email">
+                <textarea id="Message" placeholder="Entrez votre message..."></textarea>
+                <div class="sending divNavBtn" id="sendBtnTabletMobile">
+                    <input type="submit" class="sendButton" value="Envoyer">
+                    <span class="underlineNotFull callUnderline"></span>
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
+        <div class="sending divNavBtn"id="sendBtnDesktop">
+            <input type="submit" class="sendButton" value="Envoyer">
+            <span class="underlineNotFull callUnderline"></span>
+        </div>
+    </section>
 
-    </html>
+    <footer>
+        <h4>Pure Haircut</h4>
+        <div>
+            <div><p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, the industry's standard dummy text ever since the 1500s.
+            </p>
+            </div>
+            <div>
+                <p>145 rue de la rue</p>
+                <p>39000 Lons-Le-Saunier</p>
+                <a href="tel:+33340394826" target="_blank">+33340394826</a>
+                <a href="mailto:contact@pure-haircut.com" target="_blank">contact@pure-haircut.com</a>
+            </div>
+            <div>
+                <p>Mentions légales</p>
+                <p>Politique de confidentialité</p>
+                <p>Copyright 2022 &copy; Pure Haircut</p>
+                <p>
+                    une réalisation 
+                <a href="https://webantek.com" target="_blank">
+                    Webantek
+                </a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/real.js"></script>
+<script src="assets/js/diapo.js"></script>
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdonv8L9rA-p0JX2YVBhmyYTeJr-vU2eQ&callback=initMap">
+</script>
+
+</html>
