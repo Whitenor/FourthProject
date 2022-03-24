@@ -1,3 +1,8 @@
+window.alert('possibles bugs de la navbar avec les outils de dévellopements')
+
+
+
+
 // MAPS
 function initMap() {
     const campus = { lat: 46.6687245, lng: 5.5536708 };
