@@ -1,4 +1,3 @@
-window.alert('possibles bugs de la navbar avec les outils de dévellopements')
 
 
 
