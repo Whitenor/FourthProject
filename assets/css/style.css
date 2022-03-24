@@ -218,6 +218,9 @@ header {
     min-height: 36vh;
     padding: 0;
 }
+.formsMails>input{
+    padding-left: 10px;
+}
 .firstRow>input::placeholder, .formsMails>input::placeholder, .formsMails>textarea::placeholder{
     color: white;
     font-family: "OpenSans", sans-serif;
@@ -237,6 +240,7 @@ header {
 }
 .firstRow > input{
     width: 48%;
+    padding: 10px;
     background: transparent;
     color: white;
 }
